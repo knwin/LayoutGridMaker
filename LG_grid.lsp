@@ -90,7 +90,7 @@
 	(if (/= 0 minorgd) (setq minorgd 0))
     	(set_tile "minorgd" (itoa minorgd))
 
-	(setq dcl_id (load_dialog "ddgrid.dcl"))
+	(setq dcl_id (load_dialog "lg_grid.dcl"))
 	(if(not(new_dialog "gd_box1" dcl_id))(exit))
 	(set_tile "gd_spc" "10")
 	(set_tile "gd_txt" "0.25")
